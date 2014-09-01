@@ -18,6 +18,9 @@ you can create one there.
 	define(CONSUMER_SECRET, 'YOUR APP ACCESS TOKEN SECRET');
 	define(OAUTH_CALLBACK, 'http://YOURDOMAIN/some/where/twitter-auth.php');
 
+**Attention**: be sure to check the option "Allow this application to be used
+to Sign in with Twitter" at your Twitter app's settings page!
+
 Point your browser to the main PHP script (`twitter-auth.php`) and see the
 magic happen. Note that you can set the callback to the same script. You will
 be presented to all the retrieved data. Check the source, copy and use at your
